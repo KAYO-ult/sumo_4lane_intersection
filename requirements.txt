@@ -1,0 +1,16 @@
+# SUMO-RL: Gymnasium wrapper for SUMO traffic signal control
+sumo-rl>=1.4.5
+
+# Reinforcement Learning (DQN)
+stable-baselines3>=2.1.0
+
+# Gymnasium (RL environment interface)
+gymnasium>=0.28.0
+
+# Data processing and visualization
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# TensorBoard for training monitoring
+tensorboard>=2.14.0
