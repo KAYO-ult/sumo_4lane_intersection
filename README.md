@@ -18,7 +18,7 @@ Traditional traffic signals use fixed-time cycles regardless of actual traffic c
 ## Architecture
 
 ```
-┌──────────────┐     TraCI      ┌──────────────┐    Gymnasium    ┌──────────────┐
+┌──────────────┐     TraCI      ┌──────────────┐    Gymnasium   ┌──────────────┐
 │     SUMO     │ ◄────────────► │   sumo-rl    │ ◄────────────► │   SB3 DQN    │
 │  (Simulator) │                │  (Env Wrap)  │                │   (Agent)    │
 └──────────────┘                └──────────────┘                └──────────────┘
