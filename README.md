@@ -83,7 +83,7 @@ This runs all four steps sequentially: generate → train → evaluate → plot.
 # Step 1: Generate the SUMO network and vehicle demand
 python generate_network.py
 
-# Step 2: Train the DQN agent (100,000 timesteps)
+# Step 2: Train the DQN agent (100,000 timesteps)   
 python train.py
 
 # Step 3: Evaluate RL vs fixed-time signals (5 episodes each)
